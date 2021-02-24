@@ -10,10 +10,12 @@
       }
     ],
     "date": "2021-02-24",
-    "categories": [],
+    "categories": [
+      "visualization"
+    ],
     "contents": "\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-02-24T10:30:55-08:00",
+    "last_modified": "2021-02-24T11:10:23-08:00",
     "input_file": "welcome.utf8.md"
   },
   {
@@ -27,10 +29,13 @@
       }
     ],
     "date": "2021-02-24",
-    "categories": [],
+    "categories": [
+      "visualization",
+      "modeling"
+    ],
     "contents": "\r\nThis is my website showcasing the data from my dissertation.\r\n\r\n\r\nlibrary(tidyverse)\r\nggplot(mtcars, aes(disp, mpg))+\r\n  geom_point()+\r\n  theme_minimal()\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": "posts/2021-02-24-some-models/some-models_files/figure-html5/unnamed-chunk-1-1.png",
-    "last_modified": "2021-02-24T10:40:53-08:00",
+    "last_modified": "2021-02-24T11:04:20-08:00",
     "input_file": "some-models.utf8.md"
   }
 ]
