@@ -1,0 +1,26 @@
+---
+title: "Some models"
+description: |
+  A short description of the post.
+author:
+  - name: Ping Wongphothiphan
+    url: {}
+date: 02-24-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(dev = "ragg_png")
+```
+
+This is my website showcasing the data from my dissertation.
+
+```{r message = FALSE}
+library(tidyverse)
+ggplot(mtcars, aes(disp, mpg))+
+  geom_point()+
+  theme_minimal()
+```
